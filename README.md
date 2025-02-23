@@ -22,3 +22,4 @@ Creating a Search Bar Component
 3. Once done, get the selector of the search bar component from search-bar.ts and put it inside app.component.html.
 4. Modify the search bar html file.
 5. Apply CSS Styles into it to make it more pleasing.
+6. Enabling the Search functionality in both HTML and TypeScript file.

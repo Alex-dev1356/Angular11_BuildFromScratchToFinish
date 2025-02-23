@@ -1,5 +1,6 @@
 <div class="search-container">
-    <form class="search-form">
+    <!-- Adding #form that serves as the argument from the newly created onSubmit method-->
+    <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
         <!-- Adding a logo, once clicked we will be redirected to the homepage -->
         <span class="logo" routerLink="/">NgVGDB</span>
 
