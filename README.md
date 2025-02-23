@@ -12,3 +12,6 @@ After Installing everything that we needed:
 2. Import Forms Module and HTTP Module
 3. Next all the external modules such as GaugeModule, MatTabsModule, MatIconModule, MatFormFieldModule and MatSelectModule
 4. One done importing, we need to add all those items inside our @NgModule > imports[.....].
+5. Remove the global styles from styles.scss files.
+6. Modify the styles.scss with our code.
+7. Run our application.
