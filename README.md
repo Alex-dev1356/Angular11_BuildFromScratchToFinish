@@ -23,3 +23,13 @@ Creating a Search Bar Component
 4. Modify the search bar html file.
 5. Apply CSS Styles into it to make it more pleasing.
 6. Enabling the Search functionality in both HTML and TypeScript file.
+
+Creating our HomePage Component
+1. First Navigate to our app folder and from there we'll create the search bar component using Angular CLI: cd ng-video-game-db, cd src, cd app
+2. Create a new search bar component: ng g c home
+
+Creating Routes for each of our components
+1. On app-routing.module.ts, we'll create path which is a default path
+2. Inside const routes:Routes = [{....},{.....}], we want all our searches to land on Home Component.
+3. The Component for both of the routes ('' and 'search/:game-search') is the Home Component.
+4. Create a Router outlet inside our app.component.html 
