@@ -14,4 +14,11 @@ After Installing everything that we needed:
 4. One done importing, we need to add all those items inside our @NgModule > imports[.....].
 5. Remove the global styles from styles.scss files.
 6. Modify the styles.scss with our code.
-7. Run our application.
+7. Navigate to our directory: cd ng-video-game-db. Run our application: ng serve
+
+Creating a Search Bar Component
+1. First Navigate to our app folder and from there we'll create the search bar component using Angular CLI: cd ng-video-game-db, cd src, cd app
+2. Create a new search bar component: ng g c search-bar
+3. Once done, get the selector of the search bar component from search-bar.ts and put it inside app.component.html.
+4. Modify the search bar html file.
+5. Apply CSS Styles into it to make it more pleasing.
