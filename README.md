@@ -33,3 +33,11 @@ Creating Routes for each of our components
 2. Inside const routes:Routes = [{....},{.....}], we want all our searches to land on Home Component.
 3. The Component for both of the routes ('' and 'search/:game-search') is the Home Component.
 4. Create a Router outlet inside our app.component.html 
+
+Implementing Filter in our Home Component used for filtering the games which will be displayed on the homepage
+1. In our home component html file, we'll create a div with a class of filters and we'll use MatFormField for our fields, we'll also use
+   MatLabel
+2. For our selection we'll use Mat-Select and attach [(ngModel)]="sort" which is going to be a variable from component which will be attached
+   to Mat-Select.
+3. We want to add some Values in our Mat-options like Name, Released, Added, Created, Updated, Rating and Metacrititc.
+4. To attach the Met-Selects we need to create the 'sort' variable inside our home.component.ts
